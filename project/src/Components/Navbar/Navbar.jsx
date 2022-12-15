@@ -14,7 +14,7 @@ export const Navbar = () => {
                     <div class="dropdown">
                         <p class="dropbtn">Software</p>
                         <div class="dropdown-content" >
-                            <h3>The HubSpot CRM Platform</h3>
+                            <h3 style={{marginTop:"50px"}}>The HubSpot CRM Platform</h3>
                             <p>All of HubSpot’s marketing, sales CRM, customer service, CMS, and operations software on one platform.</p>
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
@@ -25,7 +25,7 @@ export const Navbar = () => {
                     <div class="dropdown">
                         <p class="dropbtn">Resources</p>
                         <div class="dropdown-content" >
-                            <h3>The HubSpot CRM Platform</h3>
+                            <h3 style={{marginTop:"50px"}} >The HubSpot CRM Platform</h3>
                             <p>All of HubSpot’s marketing, sales CRM, customer service, CMS, and operations software on one platform.</p>
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
@@ -33,14 +33,27 @@ export const Navbar = () => {
                         </div>
                     </div>
                    <Spacer/>
-                    <div>
-                    <Link to="/login" style={{ color: "white",fontSize: "20px",marginRight:"200px",textUnderlineOffset: "5px"}}><p>Login</p></Link>
-                    </div>
-                    <div>
-                    <Link to="/login" style={{ color: "white",fontSize: "20px",marginRight:"200px",textUnderlineOffset: "5px"}}><p>Login</p></Link>
-                    </div>
-                    <div>
+                   
+                    <div style={{display:Flex,justifyContent:"center",alignItems:"center",margin:"auto"}}>
+                    <Link to="/login" style={{ color: "white",fontSize: "20px",marginRight:"200px",margin:"auto",textUnderlineOffset: "5px"}}><p>Login</p></Link>
                     
+                    </div>
+                    
+                    <div style={{display:Flex,justifyContent:"center",alignItems:"center",margin:"auto"}}>
+                    <Link to="/login" style={{ color: "white",fontSize: "20px",marginRight:"200px",margin:"auto",textUnderlineOffset: "5px"}}><p>Customer Support</p></Link>
+                    </div>
+
+                    
+
+                    <div class="dropdown">
+                        <p class="dropbtn">Software</p>
+                        <div class="dropdown-content" >
+                            <h3 style={{marginTop:"50px"}}>The HubSpot CRM Platform</h3>
+                            <p>All of HubSpot’s marketing, sales CRM, customer service, CMS, and operations software on one platform.</p>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
                     </div>
 
                 </Flex>
