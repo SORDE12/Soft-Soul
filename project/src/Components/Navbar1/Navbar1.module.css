@@ -1,0 +1,239 @@
+
+.main_div{
+    height: 54px;
+    width: 1080px;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+.second_div{
+    height: 54px;
+    width: 240px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.second_div2{
+    height: 47px;
+    width: 313px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    font-weight: bolder;
+
+    
+}
+.final_div{
+    height: 54px;
+    width: 100px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+
+}
+.drop{
+    font-size: 12px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /* width: 15px; */
+
+}
+.drop:after{
+    content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: 
+  rgb(105, 182, 103);
+  transform-origin: bottom right;
+  transition: transform  ease-out;
+ 
+}
+
+.drop:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    /* font-size: 13px; */
+  }
+.final_div:hover{
+    /* color: rgb(3, 73, 0); */
+    cursor: pointer;
+    font-size: 13px;
+    
+
+    
+}
+.drop:hover{
+    font-size: 12.2px;
+    color: rgb(3, 73, 0);
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    z-index: 1;
+    margin-left: -92px;
+    margin-top: 20px;
+    height: 200px;
+    width: 80px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  
+  .final_div:hover .dropdown_content {
+    display: block;
+  }
+  .content{
+    display: grid;
+    justify-content: space-around;
+    gap: 15px;
+    font-size: 12px;
+
+
+  }
+  .para{
+    font-size: 12px;
+    
+  }
+  .para:hover{
+    color: rgb(3, 73, 0);
+    text-decoration: underline;
+    font-size: 12.3px;
+  }  
+  .dropdown_content2 {
+    display: none;
+    position: absolute;
+    background-color:white;
+    z-index: 1;
+    margin-left: -160px;
+    margin-top: 20px;
+    height: 180px;
+    width: 170px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  .final_div:hover .dropdown_content2 {
+    display: block;
+  }
+  .para2{
+    font-size: 14px;
+    
+  }
+  .para2:hover{
+    color: rgb(3, 73, 0);
+    text-decoration: underline;
+    font-size: 12.3px;
+  }
+
+  
+   .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .active {
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    transition: 0s linear;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    z-index: 40;
+   
+    border-bottom: 0.01px solid rgb(247, 243, 243);
+  
+  }
+  
+  .hidden {
+    height: 4rem;
+    width: 100%;
+    z-index: 40;
+    border-bottom: 0.5px solid rgb(247, 243, 243);
+    position: fixed;
+    top: -80px;
+    transition: 0s linear;
+    
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@350&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+  *{
+    font-family: 'Lexend Deca', sans-serif;
+  }
+  
+  .navbar {
+    position: relative;
+    z-index: 999;
+    height: 62px;
+    width: 100%;
+ 
+  }
+  
+  .sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .main {
+    padding: 40px 20px;
+  }
+  .hello{
+   height: 200px;
+   width: 100%;
+   border: 1px solid red;
+  }
+   
+  
+  
+  
