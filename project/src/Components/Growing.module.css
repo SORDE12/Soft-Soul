@@ -1,0 +1,34 @@
+
+
+.container{
+    height: 570px;
+    width: 100%;
+    padding: 64px 0px 64px 0px;
+
+}
+.main_box{
+    height: 442px;
+    width: 1080px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+}
+.box{
+    height: 280px;
+    width: 730px;
+    text-align: left;
+
+}
+.btn{
+    height: 50px;
+    width: 250px;
+    background-color: #ff5c35;
+    color:white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    
+}

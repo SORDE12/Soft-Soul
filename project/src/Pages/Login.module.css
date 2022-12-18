@@ -1,0 +1,33 @@
+
+
+.container{
+    height: auto;
+    width: 400px;
+    margin: auto;
+    background-color: whitesmoke;
+    border: 1ps whitesmoke;
+    padding: 5px;
+    
+}
+.img{
+    height: 60px;
+    width: 400px;
+    margin-top: 70px;
+}
+.signup{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    margin-left: 70px;
+}
+.label{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.input{
+    height: 50px;
+    width: 100%;
+   margin-top: 10px;
+
+}

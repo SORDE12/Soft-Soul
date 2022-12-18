@@ -1,8 +1,8 @@
 import React from 'react'
 import { useEffect,useState } from 'react'
-import { Link } from '@chakra-ui/layout'
 import { ChevronDownIcon } from '@chakra-ui/icons'
 import n from "./Navbar1.module.css"
+import { Link } from 'react-router-dom'
 
 
 
@@ -71,6 +71,7 @@ const Navbar1 = () => {
                          <img className={n.drop} src="https://cdn-icons-png.flaticon.com/512/758/758784.png" alt="search icon" />
                          
                          <Link to="/Login" className={n.drop}>Login</Link>
+                     
 
                         
                          <p className={n.drop}>Customer Support</p>
