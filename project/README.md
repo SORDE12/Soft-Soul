@@ -1,8 +1,18 @@
 
-<h1>RCT 101 Project </h1>
+<h1>React Project </h1>
+<h2> Name </h2> <h3> : Omkar Sorde </h3>
 <div style="display:flex, flex-direction:row" >
   <h2> Project Name </h2> <h3> : Soft Soul </h3>
 </div>
+
+<div style="display:flex, flex-direction:row" >
+  <h2> Netlify Link </h2> <h3> (https://app.netlify.com/sites/lustrous-sprinkles-5b0bed/overview) </h3>
+</div>
+
+
+<p>
+
+<p/>
 
 <h3>Logo</h3>
 
