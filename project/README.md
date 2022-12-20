@@ -1,6 +1,9 @@
 
 <h1>RCT 101 Project </h1>
-<h3> Soft Soul </h3>
+<div style="display:flex, flex-direction:row" >
+  <h2> Project Name </h2> <h3> : Soft Soul </h3>
+</div>
+
 <h3>Logo</h3>
 
 
@@ -9,8 +12,15 @@
 
 <h4>Cloned website using HTML , CSS , Javascript, React JS  </h4>
 
+
+
+![img](https://user-images.githubusercontent.com/108116297/208624123-faec3053-e144-4f22-add9-d6d1295f54d3.png)
+
+
 <h2> In Login fuctionality I used reqres rest API </h2>
 
+
+![img1](https://user-images.githubusercontent.com/108116297/208625482-2477832e-e533-40e4-8668-96b8113987ed.png)
 
 
 # Getting Started with Create React App
