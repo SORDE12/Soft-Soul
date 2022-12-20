@@ -1,3 +1,18 @@
+
+<h1>RCT 101 Project </h1>
+<h3> Soft Soul </h3>
+<h3>Logo</h3>
+
+
+![softSoul](https://user-images.githubusercontent.com/108116297/208620714-acb91dce-869f-4040-8b27-b8ecdcde0691.png)
+
+
+<h4>Cloned website using HTML , CSS , Javascript, React JS  </h4>
+
+<h2> In Login fuctionality I used reqres rest API </h2>
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
